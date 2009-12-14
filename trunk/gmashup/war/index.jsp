@@ -37,9 +37,8 @@
 			<div>Haga clic sobre el mapa para colocar un nuevo lugar. 
 				Puede arrastrarlo sobre el mapa. 
 				Sólo se pueden eliminar con el botón derecho los lugares sin guardar.
-			</div>
-			<div>
-				<a href="/doc/ProyectoMashUp.pdf">Explicación en PDF</a>
+				<a href="/doc/ProyectoMashUp.pdf" target="_blank">Explicación en PDF</a>
+				<a href="http://code.google.com/p/gmashup/source/browse/#svn/trunk/gmashup">Código Fuente</a>
 				<img src="http://code.google.com/appengine/images/appengine-noborder-120x30.gif" alt="Con la tecnología de Google App Engine" />
 			</div>
 		</div>
