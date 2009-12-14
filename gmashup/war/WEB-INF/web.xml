@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+
+	<servlet>
+		<servlet-name>GMashUP</servlet-name>
+		<servlet-class>com.practica.gmashup.GMashUPServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GMashUP</servlet-name>
+		<url-pattern>/gmashup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>EnviarLocalizacion</servlet-name>
+		<servlet-class>com.practica.gmashup.acciones.EnviarLocalizacion</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>EnviarImagen</servlet-name>
+		<servlet-class>com.practica.gmashup.acciones.EnviarImagen</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ConsultarLocalizacion</servlet-name>
+		<servlet-class>com.practica.gmashup.acciones.ConsultarLocalizacion</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ConsultarImagen</servlet-name>
+		<servlet-class>com.practica.gmashup.acciones.ConsultarImagen</servlet-class>
+	</servlet>	
+		
+	<servlet-mapping>
+		<servlet-name>EnviarLocalizacion</servlet-name>
+		<url-pattern>/enviarlocalizacion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>EnviarImagen</servlet-name>
+		<url-pattern>/enviarimagen</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ConsultarLocalizacion</servlet-name>
+		<url-pattern>/consultarlocalizacion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ConsultarImagen</servlet-name>
+		<url-pattern>/consultarimagen</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
